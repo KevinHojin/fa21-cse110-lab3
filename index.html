@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSE 110 Group 1</title>
+    <meta name="description" content="CSE110 Lab2">
+    <meta name="author" content="Kevin An">
+    <meta name="keywords" content="html, CSE110, Lab2">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  </head>
+  <body>
+    <header>
+      <h1>CSE 110 Group 1 Second Scrum</h1>
+      <h2>Welcome to the second meeting :)</h2>
+      <img src="diagram.png" alt="diagram" width="600" height="300">
+      <h3>
+        2001 Warren Lecture Hall<br />
+        92092<br />
+        San Diego, California
+      </h3>
+      <h3>October 3, 2021</h3>
+    </header>
+    <main>
+      <hr />
+      <section>
+        <h2>Attendance List</h2>
+        <ul>
+          <li>Kevin An</li>
+          <li>Student 2</li>
+          <li>Student 3</li>
+          <li>Student 4</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Check-In</h3>
+        <form>
+          <label for="name">Name: </label>
+          <input type="text" placeholder="Your name" required>
+          <label for"PID>PID: </label>
+          <input type="text" placeholder="Your PID" required>
+        </form>
+      </section>
+      <section>
+        <h2>Agenda (What the meeting will cover)</h2>
+        <ol>
+          <li>Things that were <b>unfinished business</b> from last meeting</li>
+          <li>
+            Things that are <strong>new business</strong> that need to be talked
+            about
+          </li>
+          <li>Any <i>comments, questions, concerns</i></li>
+          <li><em>Plan</em> for the next meeting</li>
+        </ol>
+      </section>
+      <hr />
+      <section>
+        <details>
+          <summary><b>Unfinished Business</b></summary>
+          <p>
+            There were some style <i>conflicts</i> between App.js and Menu.js
+          </p>
+          <img src="image.png" alt="error" width="300" height="600">
+          <p>We would have to fix the CSS file for App.js and Menu.js</p>
+        </details>
+        <details>
+          <summary><b>New Business</b></summary>
+          <p>We would need to <i>add functions</i> to the button components</p>
+          <p>i.e. onClick</p>
+        </details>
+        <details>
+          <summary><b>Comments and Concerns</b></summary>
+          <p>Student A will be on vacation next week</p>
+        </details>
+      </section>
+      <hr>
+      <section>
+        <h2>Audio and Video Recording of meeting</h2>
+        <audio controls>
+          <source src="audio.m4a">
+        </audio>
+        <br>
+        <video width="300" height="250" controls>
+          <source src="zoom.mp4">
+        </video>
+      </section>
+      <hr>
+      <section>
+        <h3>Personal Plan Details</h3>
+        <fieldset>
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name">
+          <div>
+            <p>
+              Work Days:   
+              <input type="checkbox" id="mwf" name="mwf">
+              <label for="mwf">MWF</label>          
+              <input type="checkbox" id="tuth" name="tuth">
+              <label for"tuth">TuTh</label>
+            </p>
+          </div>
+          <span>
+            <p>
+              Position:
+              <input type="radio" id="frontend" name="position" value="FrontEnd">
+              <label for="frontend">Front End</label>
+              <input type="radio" id="backend" name="position" value="BackEnd">
+              <label for="backend">Back End</label>
+              <input type="radio" id="both" name="position" value="Both">
+              <label for="both">Full Stack</label>
+            </p>
+          </span>
+          <label for="add">Detail about your plan: </label>
+          <textarea id="add" name="add"></textarea>
+          <br>
+          <br>
+          <form action="">
+            <label for="location">WorkPlace: </label>
+            <input list="locations" name="location" id="location">
+            <datalist id="locations">
+              <option value="Geisel">
+              <option value="Dungeon">
+              <option value="Warren Lecture Hall">
+            </datalist>
+          </form>
+          <br>
+          <form action="">
+            <label for="time">Choose a time: </label>
+            <select name="time" id="time">
+              <option value="morning">Morning</option>
+              <option value="afternoon">Afternoon</option>
+              <option value="evening">Evening</option>
+            </select>
+          </form>
+          <br>
+          <label for="due">Due: </label>
+          <input type="date" id="due" name="due">
+          <br>
+          <br>
+          <button>Submit</button>
+        </fieldset>
+      </section>
+      <section>
+        <br>
+        <button>Next Page</button>
+      </section>
+    </main>
+    <footer>
+      <hr>
+      <p>Team Manager: Kevin An</p>
+      <nav>
+        <a href="https://www.linkedin.com/in/kevin-an-038bb9219/">LinkedIn</a>
+        <a href="https://github.com/KevinHojin">GitHub</a>
+      </nav>
+    </footer>
+  </body>
+</html>
