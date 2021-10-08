@@ -1,3 +1,1 @@
-https://kevinhojin.github.io/Lab2/
-
-readme test
+https://kevinhojin.github.io/fa21-cse110-lab3/
