@@ -1,0 +1,99 @@
+h1 {
+  color: rgb(0, 0, 0); /*black*/
+  text-align: center;
+  background-color: green;
+  font-size: 1.3cm;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 7px;
+  width: 50%;
+  height: 70px;
+  max-width: 1000px;
+  min-width: 500px;
+}
+
+h2 {
+  color: navy;
+  font-size: 8mm;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #ffa500; /*Orange*/
+  font-size: 1.5pc;
+  margin: 10px 10px 50px 10px;
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 7px;
+  position: static;
+}
+
+li {
+  color: hsl(240, 100%, 50%); /*blue*/
+  font-size: 1.1em;
+}
+
+summary {
+  font-size: 3ex;
+}
+
+details {
+  font-size: 100%;
+}
+
+img {
+  position: relative;
+  left: 700px;
+}
+
+button:hover {
+  color: green;
+  background-color: yellow;
+}
+
+button:active {
+  color: green;
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  flex-wrap: nowrap;
+  background-color: yellow;
+}
+
+.container > div {
+  background-color: orange;
+  margin: 10px;
+}
+
+.grid-con {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10%;
+  row-gap: 0;
+  padding: 5px;
+}
+
+.item {
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    background-color: beige;
+  }
+}

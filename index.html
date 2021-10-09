@@ -6,10 +6,31 @@
     <meta name="author" content="Kevin An" />
     <meta name="keywords" content="html, CSE110, Lab2" />
     <link rel="icon" type="image/jpg" href="dog.jpg" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        color: gray;
+      }
+      p.visible {
+        color: red;
+        display: inline;
+      }
+      P.invisible {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>CSE 110 Group 1 Second Scrum</h1>
+      <h1 style="font-family: 'Roboto', sans-serif">
+        CSE 110 Group 1 Second Scrum
+      </h1>
       <h2>Welcome to the second meeting :)</h2>
       <img src="diagram.png" alt="diagram" width="600" height="300" />
       <h3>
@@ -65,6 +86,8 @@
           <summary><b>New Business</b></summary>
           <p>We would need to <i>add functions</i> to the button components</p>
           <p>i.e. onClick</p>
+          <p class="invisible">This is invisible message</p>
+          <p class="visible">This is visible message</p>
         </details>
         <details>
           <summary><b>Comments and Concerns</b></summary>
@@ -145,6 +168,22 @@
         <br />
         <button>Next Page</button>
       </section>
+      <div class="container">
+        <div>first meeting</div>
+        <div>second meeting</div>
+        <div>third meeting</div>
+      </div>
+      <h4>Seating Chart</h4>
+      <div class="grid-con">
+        <div class="item">Kevin</div>
+        <div class="item">Student A</div>
+        <div class="item">Student B</div>
+        <div class="item">Student C</div>
+        <div class="item">Student D</div>
+        <div class="item">Student E</div>
+        <div class="item">Student F</div>
+        <div class="item">Student G</div>
+      </div>
     </main>
     <footer>
       <hr />
