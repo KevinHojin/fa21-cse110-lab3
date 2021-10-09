@@ -14,9 +14,6 @@
       rel="stylesheet"
     />
     <style>
-      p {
-        color: gray;
-      }
       p.visible {
         color: red;
         display: inline;
@@ -38,21 +35,26 @@
         92092<br />
         San Diego, California
       </h3>
-      <h3>October 3, 2021</h3>
+      <h3 class="date">October 3, 2021</h3>
     </header>
     <main>
       <hr />
       <section>
         <h2>Attendance List</h2>
         <ul>
-          <li>Kevin An</li>
+          <li>
+            Kevin An
+            <ul>
+              <li>Team Manager</li>
+            </ul>
+          </li>
           <li>Student 2</li>
           <li>Student 3</li>
           <li>Student 4</li>
         </ul>
       </section>
       <section>
-        <h3>Check-In</h3>
+        <h3 id="checkin">Check-In</h3>
         <form>
           <label for="fname">Name: </label>
           <input type="text" id="fname" placeholder="Your name" required />
@@ -184,14 +186,17 @@
         <div class="item">Student F</div>
         <div class="item">Student G</div>
       </div>
+      <button>Click to change seat</button>
     </main>
     <footer>
       <hr />
       <span>Team Manager: Kevin An</span>
+      <p>CSE 110 Project</p>
       <nav>
         <a href="https://www.linkedin.com/in/kevin-an-038bb9219/">LinkedIn</a>
         <a href="https://github.com/KevinHojin">GitHub</a>
       </nav>
+      <p>Thank you.</p>
     </footer>
   </body>
 </html>

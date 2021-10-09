@@ -97,3 +97,36 @@ button:active {
     background-color: beige;
   }
 }
+
+#checkin {
+  background-color: blue;
+}
+
+* {
+  font-size: 1em;
+}
+
+[for~="fname"] {
+  color: blue;
+}
+
+p,
+summary {
+  color: green;
+}
+
+li li {
+  color: orange;
+}
+
+div + button {
+  background-color: green;
+}
+
+span ~ p {
+  color: blue;
+}
+
+h3.date {
+  color: blue;
+}
